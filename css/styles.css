@@ -1003,9 +1003,18 @@ transform: translate(-50%, -50%);
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
+
+  background-color: #ffffff;
 }
+
+.modal-icon:hover,
+.modal-icon:focus {
+  fill:#2196f3;
+}
+
 .modal-icon {
 fill: var(--secondary-text-color);
+background-color:var(--accent-color-secondary);
 
 }
 
@@ -1090,6 +1099,9 @@ resize: none;
 min-height: 40px;
 }
 
+.form-name {
+  font-size: 12px;
+}
 
 .form-field textarea{
   border: 1px solid rgba(33, 33, 33, 0.2);
